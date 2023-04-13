@@ -30,6 +30,22 @@ const Home = () => {
           ))}
         </div>
       </div>
+
+      <div className="featured-jobs mt-28">
+        <h1 className="text-center text-5xl mb-4 font-bold">Featured Jobs</h1>
+        <p className="text-center mb-8 text-stone-600">
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
+
+        <div className="flex justify-center items-center">
+          <div className="grid md:grid-cols-2 gap-4">
+            {jobs.map((job) => (
+              <FeaturedJobs key={job.id} job={job}></FeaturedJobs>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
