@@ -11,6 +11,7 @@ import Home from './component/Home/Home';
 import Statistics from './component/Statistics/Statistics';
 import AppliedJobs from './component/AppliedJobs/AppliedJobs';
 import Blogs from './component/Blogs/Blogs';
+import JobDetails from './component/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,17 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: ()=> fetch('jobs.json')
+        loader: ()=> fetch('/jobs.json')
+      },
+      {
+        path: "/job/:id",
+        element: <JobDetails></JobDetails>, 
+        loader: async({params}) =>{
+          const res = await fetch('/jobs.json');
+          const data = await res.json();
+          const jobDetails = data.find(info => info.id == params.id);
+          return jobDetails;
+        }   
       },
       {
         path: "/statistics",

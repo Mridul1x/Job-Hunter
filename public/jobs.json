@@ -1,125 +1,140 @@
 [
-    {
-      "id": 1,
-      "companyLogo": "/src/assets/Logo/google-1-1 1.png",
-      "jobTitle": "Software Engineer",
-      "companyName": "ABC Inc.",
-      "remoteOrOnsite": "Remote",
-      "location": "New York, NY",
-      "fulltimeOrParttime": "Full-time",
-      "salary": "$80,000 - $100,000",
-      "jobDescription": "We are seeking a skilled Software Engineer to join our team. In this role, you will be responsible for developing and maintaining software applications, debugging and resolving software defects, and collaborating with cross-functional teams to deliver high-quality software solutions.",
-      "jobResponsibility": "Designing, coding, testing, and debugging software applications; Collaborating with product managers, software architects, and other stakeholders to gather and analyze requirements; Troubleshooting and resolving software defects and issues; Participating in code and design reviews to maintain code quality standards; Developing and maintaining technical documentation.",
-      "locationIcon": "/src/assets/Icons/Frame-4.png",
-      "salaryIcon": "/src/assets/Icons/Frame.png",
-      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-      "experiences": "3+ years of experience in software development",
-      "contactInformation": {
-        "phone": "123-456-7890",
-        "email": "jobs@abcinc.com"
-      }
-    },
-    {
-      "id": 2,
-      "companyLogo": "/src/assets/Logo/google-1-1 1.png",
-      "jobTitle": "Marketing Specialist",
-      "companyName": "XYZ Corp.",
-      "remoteOrOnsite": "Onsite",
-      "location": "Los Angeles, CA",
-      "fulltimeOrParttime": "Full-time",
-      "salary": "$60,000 - $80,000",
-      "locationIcon": "/src/assets/Icons/Frame-4.png",
-      "salaryIcon": "/src/assets/Icons/Frame.png",
-      "jobDescription": "We are looking for a talented Marketing Specialist to join our team. In this role, you will be responsible for developing and implementing marketing strategies, managing marketing campaigns, analyzing data and market trends, and collaborating with cross-functional teams to drive marketing initiatives.",
-      "jobResponsibility": "Creating and implementing marketing strategies; Managing marketing campaigns across various channels; Analyzing data and market trends to identify opportunities; Collaborating with cross-functional teams to develop and execute marketing initiatives; Monitoring and reporting on marketing performance metrics.",
-      "educationalRequirements": "Bachelor's degree in Marketing or related field",
-      "experiences": "2+ years of experience in marketing",
-      "contactInformation": {
-        "phone": "987-654-3210",
-        "email": "jobs@xyzcorp.com"
-      }
-    },
-    {
-      "id": 3,
-      "companyLogo": "/src/assets/Logo/google-1-1 1.png",
-      "jobTitle": "Data Scientist",
-      "companyName": "123 Tech",
-      "remoteOrOnsite": "Remote",
-      "location": "San Francisco, CA",
-      "fulltimeOrParttime": "Full-time",
-      "locationIcon": "/src/assets/Icons/Frame-4.png",
-      "salaryIcon": "/src/assets/Icons/Frame.png",
-      "salary": "$90,000 - $120,000",
-      "jobDescription": "We are seeking a talented Data Scientist to join our data analytics team. In this role, you will be responsible for developing and implementing data models, analyzing data, and providing insights and recommendations to drive data-driven decision-making.",
-      "jobResponsibility": "Developing and implementing data models and algorithms; Analyzing complex data sets to identify trends and patterns; Collaborating with cross-functional teams to define data requirements; Providing insights and recommendations to drive data-driven decision-making; Communicating findings to stakeholders.",
-      "educationalRequirements": "Master's degree in Computer Science, Statistics, or related field",
-      "experiences": "3+ years of experience in data science or related field",
-      "contactInformation": {
-        "phone": "555-123-4567",
-        "email": "jobs@123tech.com"
-      }
-    },
-    {
-      "id": 4,
-      "companyLogo": "/src/assets/Logo/google-1-1 1.png",
-      "jobTitle": "Graphic Designer",
-      "companyName": "Design Co.",
-      "locationIcon": "/src/assets/Icons/Frame-4.png",
-      "salaryIcon": "/src/assets/Icons/Frame.png",
-      "remoteOrOnsite": "Onsite",
-      "location": "Chicago, IL",
-      "fulltimeOrParttime": "Full-time",
-      "salary": "$50,000 - $70,000",
-      "jobDescription": "We are looking for a creative and talented Graphic Designer to join our design team. In this role, you will be responsible for creating visually appealing and effective designs for various marketing materials, websites, and social media platforms.",
-      "jobResponsibility": "Creating visually appealing and effective designs for marketing materials, websites, and social media platforms; Collaborating with clients and team members to gather design requirements; Presenting design concepts and obtaining feedback; Ensuring design consistency and brand compliance; Managing multiple design projects and meeting deadlines.",
-      "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
-      "experiences": "2+ years of experience in graphic design",
-      "contactInformation": {
-        "phone": "777-987-6543",
-        "email": "jobs@designco.com"
-      }
-    },
-    {
-      "id": 5,
-      "companyLogo": "/src/assets/Logo/google-1-1 1.png",
-      "jobTitle": "Human Resources Manager",
-      "companyName": "HR Solutions",
-      "remoteOrOnsite": "Onsite",
-      "location": "Dallas, TX",
-      "fulltimeOrParttime": "Full-time",
-      "locationIcon": "/src/assets/Icons/Frame-4.png",
-      "salaryIcon": "/src/assets/Icons/Frame.png",
-      "salary": "$70,000 - $90,000",
-      "jobDescription": "We are seeking an experienced Human Resources Manager to oversee all aspects of HR operations. In this role, you will be responsible for managing recruitment, employee relations, performance management, compensation and benefits, and HR policies and procedures.",
-      "jobResponsibility": "Managing all aspects of HR operations, including recruitment, employee relations, performance management, compensation and benefits, and HR policies and procedures; Providing guidance and support to employees and management on HR-related matters; Ensuring compliance with employment laws and regulations; Developing and implementing HR programs and initiatives; Managing employee onboarding and offboarding processes.",
-      "educationalRequirements": "Bachelor's degree in Human Resources, Business Administration, or related field",
-      "experiences": "5+ years of experience in human resources management",
-      "contactInformation": {
-        "phone": "111-222-3333",
-        "email": "jobs@hrsolutions.com"
-      }
-    },
-    {
-      "id": 6,
-      "companyLogo": "/src/assets/Logo/google-1-1 1.png",
-      "jobTitle": "Sales Representative",
-      "companyName": "Sales Pros",
-      "remoteOrOnsite": "Remote",
-      "locationIcon": "/src/assets/Icons/Frame-4.png",
-      "salaryIcon": "/src/assets/Icons/Frame.png",
-      "location": "Miami, FL",
-      "fulltimeOrParttime": "Full-time",
-      "salary": "$40,000 - $60,000",
-      "jobDescription": "We are looking for a highly motivated Sales Representative to join our sales team. In this role, you will be responsible for prospecting, lead generation, sales presentations, and closing deals with potential customers.",
-      "jobResponsibility": "Prospecting and generating leads through various channels; Conducting sales presentations and product demonstrations to potential customers; Negotiating and closing deals; Building and maintaining relationships with customers; Meeting and exceeding sales targets; Providing excellent customer service and resolving customer inquiries or issues; Keeping accurate records of sales activities and customer interactions.",
-      "educationalRequirements": "High school diploma or equivalent; Bachelor's degree in Business, Marketing, or related field is a plus",
-      "experiences": "2+ years of experience in sales or related field",
-      "contactInformation": {
-        "phone": "555-987-6543",
-        "email": "jobs@salespros.com"
-      }
+  {
+    "id": 1,
+    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "ABC Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We are seeking a skilled Software Engineer to join our team. In this role, you will be responsible for developing and maintaining software applications, debugging and resolving software defects, and collaborating with cross-functional teams to deliver high-quality software solutions.",
+    "jobResponsibility": "Designing, coding, testing, and debugging software applications; Collaborating with product managers, software architects, and other stakeholders to gather and analyze requirements; Troubleshooting and resolving software defects and issues; Participating in code and design reviews to maintain code quality standards; Developing and maintaining technical documentation.",
+    "locationIcon": "/src/assets/Icons/Frame-4.png",
+    "salaryIcon": "/src/assets/Icons/Frame.png",
+    "phoneIcon": "/src/assets/Icons/Frame-2.png",
+    "emailIcon": "/src/assets/Icons/Frame-3.png",
+    "jobTitleIcon": "/src/assets/Icons/Frame-1.png",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "jobs@abcinc.com"
     }
-  ]
-  
-  
-  
+  },
+  {
+    "id": 2,
+    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "jobTitle": "Marketing Specialist",
+    "companyName": "XYZ Corp.",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$60,000 - $80,000",
+    "locationIcon": "/src/assets/Icons/Frame-4.png",
+    "phoneIcon": "/src/assets/Icons/Frame-2.png",
+    "emailIcon": "/src/assets/Icons/Frame-3.png",
+    "jobTitleIcon": "/src/assets/Icons/Frame-1.png",
+    "salaryIcon": "/src/assets/Icons/Frame.png",
+    "jobDescription": "We are looking for a talented Marketing Specialist to join our team. In this role, you will be responsible for developing and implementing marketing strategies, managing marketing campaigns, analyzing data and market trends, and collaborating with cross-functional teams to drive marketing initiatives.",
+    "jobResponsibility": "Creating and implementing marketing strategies; Managing marketing campaigns across various channels; Analyzing data and market trends to identify opportunities; Collaborating with cross-functional teams to develop and execute marketing initiatives; Monitoring and reporting on marketing performance metrics.",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field",
+    "experiences": "2+ years of experience in marketing",
+    "contactInformation": {
+      "phone": "987-654-3210",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "/src/assets/Logo/netflix-4 1.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "123 Tech",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "locationIcon": "/src/assets/Icons/Frame-4.png",
+    "salaryIcon": "/src/assets/Icons/Frame.png",
+    "phoneIcon": "/src/assets/Icons/Frame-2.png",
+    "emailIcon": "/src/assets/Icons/Frame-3.png",
+    "jobTitleIcon": "/src/assets/Icons/Frame-1.png",
+    "salary": "$90,000 - $120,000",
+    "jobDescription": "We are seeking a talented Data Scientist to join our data analytics team. In this role, you will be responsible for developing and implementing data models, analyzing data, and providing insights and recommendations to drive data-driven decision-making.",
+    "jobResponsibility": "Developing and implementing data models and algorithms; Analyzing complex data sets to identify trends and patterns; Collaborating with cross-functional teams to define data requirements; Providing insights and recommendations to drive data-driven decision-making; Communicating findings to stakeholders.",
+    "educationalRequirements": "Master's degree in Computer Science, Statistics, or related field",
+    "experiences": "3+ years of experience in data science or related field",
+    "contactInformation": {
+      "phone": "555-123-4567",
+      "email": "jobs@123tech.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "/src/assets/Logo/tesla-9 1.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Design Co.",
+    "locationIcon": "/src/assets/Icons/Frame-4.png",
+    "salaryIcon": "/src/assets/Icons/Frame.png",
+    "phoneIcon": "/src/assets/Icons/Frame-2.png",
+    "emailIcon": "/src/assets/Icons/Frame-3.png",
+    "jobTitleIcon": "/src/assets/Icons/Frame-1.png",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$50,000 - $70,000",
+    "jobDescription": "We are looking for a creative and talented Graphic Designer to join our design team. In this role, you will be responsible for creating visually appealing and effective designs for various marketing materials, websites, and social media platforms.",
+    "jobResponsibility": "Creating visually appealing and effective designs for marketing materials, websites, and social media platforms; Collaborating with clients and team members to gather design requirements; Presenting design concepts and obtaining feedback; Ensuring design consistency and brand compliance; Managing multiple design projects and meeting deadlines.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInformation": {
+      "phone": "777-987-6543",
+      "email": "jobs@designco.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "jobTitle": "Human Resources Manager",
+    "companyName": "HR Solutions",
+    "remoteOrOnsite": "Onsite",
+    "location": "Dallas, TX",
+    "fulltimeOrParttime": "Full-time",
+    "locationIcon": "/src/assets/Icons/Frame-4.png",
+    "salaryIcon": "/src/assets/Icons/Frame.png",
+    "phoneIcon": "/src/assets/Icons/Frame-2.png",
+    "emailIcon": "/src/assets/Icons/Frame-3.png",
+    "jobTitleIcon": "/src/assets/Icons/Frame-1.png",
+    "salary": "$70,000 - $90,000",
+    "jobDescription": "We are seeking an experienced Human Resources Manager to oversee all aspects of HR operations. In this role, you will be responsible for managing recruitment, employee relations, performance management, compensation and benefits, and HR policies and procedures.",
+    "jobResponsibility": "Managing all aspects of HR operations, including recruitment, employee relations, performance management, compensation and benefits, and HR policies and procedures; Providing guidance and support to employees and management on HR-related matters; Ensuring compliance with employment laws and regulations; Developing and implementing HR programs and initiatives; Managing employee onboarding and offboarding processes.",
+    "educationalRequirements": "Bachelor's degree in Human Resources, Business Administration, or related field",
+    "experiences": "5+ years of experience in human resources management",
+    "contactInformation": {
+      "phone": "111-222-3333",
+      "email": "jobs@hrsolutions.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "jobTitle": "Sales Representative",
+    "companyName": "Sales Pros",
+    "remoteOrOnsite": "Remote",
+    "locationIcon": "/src/assets/Icons/Frame-4.png",
+    "salaryIcon": "/src/assets/Icons/Frame.png",
+    "phoneIcon": "/src/assets/Icons/Frame-2.png",
+    "emailIcon": "/src/assets/Icons/Frame-3.png",
+    "jobTitleIcon": "/src/assets/Icons/Frame-1.png",
+    "location": "Miami, FL",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$40,000 - $60,000",
+    "jobDescription": "We are looking for a highly motivated Sales Representative to join our sales team. In this role, you will be responsible for prospecting, lead generation, sales presentations, and closing deals with potential customers.",
+    "jobResponsibility": "Prospecting and generating leads through various channels; Conducting sales presentations and product demonstrations to potential customers; Negotiating and closing deals; Building and maintaining relationships with customers; Meeting and exceeding sales targets; Providing excellent customer service and resolving customer inquiries or issues; Keeping accurate records of sales activities and customer interactions.",
+    "educationalRequirements": "High school diploma or equivalent; Bachelor's degree in Business, Marketing, or related field is a plus",
+    "experiences": "2+ years of experience in sales or related field",
+    "contactInformation": {
+      "phone": "555-987-6543",
+      "email": "jobs@salespros.com"
+    }
+  }
+]

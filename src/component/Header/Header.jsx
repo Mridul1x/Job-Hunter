@@ -28,13 +28,13 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Statistics</a>
+                <Link to={"/statistics"}>Statistics</Link>
               </li>
               <li tabIndex={0}>
-                <a className="justify-between">Applied Jobs</a>
+                <Link to={"/appliedjobs"}>Applied Jobs</Link>
               </li>
               <li>
-                <a>Blog</a>
+                <Link to={"/blogs"}>Blog</Link>
               </li>
             </ul>
           </div>
