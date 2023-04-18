@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "companyLogo": "https://i.ibb.co/YPj9W21/google-1-1-1.png",
     "jobTitle": "Software Engineer",
     "companyName": "ABC Inc.",
     "remoteOrOnsite": "Remote",
@@ -24,7 +24,7 @@
   },
   {
     "id": 2,
-    "companyLogo": "/src/assets/All Images/Group 10021.png",
+    "companyLogo": "https://i.ibb.co/g3n1V5n/Group-10021.png",
     "jobTitle": "Marketing Specialist",
     "companyName": "XYZ Corp.",
     "remoteOrOnsite": "Onsite",
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "companyLogo": "/src/assets/Logo/netflix-4 1.png",
+    "companyLogo": "https://i.ibb.co/RC5nR7G/netflix-4-1.png",
     "jobTitle": "Data Scientist",
     "companyName": "123 Tech",
     "remoteOrOnsite": "Remote",
@@ -70,7 +70,7 @@
   },
   {
     "id": 4,
-    "companyLogo": "/src/assets/Logo/tesla-9 1.png",
+    "companyLogo": "https://i.ibb.co/Xyd0qt6/tesla-9-1.png",
     "jobTitle": "Graphic Designer",
     "companyName": "Design Co.",
     "locationIcon": "/src/assets/Icons/Frame-4.png",
@@ -93,7 +93,7 @@
   },
   {
     "id": 5,
-    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "companyLogo": "https://i.ibb.co/YPj9W21/google-1-1-1.png",
     "jobTitle": "Human Resources Manager",
     "companyName": "HR Solutions",
     "remoteOrOnsite": "Onsite",
@@ -116,7 +116,7 @@
   },
   {
     "id": 6,
-    "companyLogo": "/src/assets/Logo/google-1-1 1.png",
+    "companyLogo": "https://i.ibb.co/YPj9W21/google-1-1-1.png",
     "jobTitle": "Sales Representative",
     "companyName": "Sales Pros",
     "remoteOrOnsite": "Remote",

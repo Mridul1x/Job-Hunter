@@ -1,21 +1,21 @@
 [
     {
-      "categoryLogo": "/src/assets/Icons/accounts 1.png",
+      "categoryLogo": "https://i.ibb.co/Gx2PHw6/accounts-1.pnghttps://i.ibb.co/Gx2PHw6/accounts-1.png",
       "categoryName": "Technology",
       "jobsAvailable": 100
     },
     {
-      "categoryLogo": "/src/assets/Icons/business 1.png",
+      "categoryLogo": "https://i.ibb.co/5swjMvx/business-1.png",
       "categoryName": "Finance",
       "jobsAvailable": 50
     },
     {
-      "categoryLogo": "/src/assets/Icons/chip 1.png",
+      "categoryLogo": "https://i.ibb.co/VHsttjp/chip-1.png",
       "categoryName": "Healthcare",
       "jobsAvailable": 75
     },
     {
-      "categoryLogo": "/src/assets/Icons/social-media 1.png",
+      "categoryLogo": "https://i.ibb.co/G3cwXWQ/social-media-1.png",
       "categoryName": "Marketing",
       "jobsAvailable": 30
     }

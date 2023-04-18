@@ -41,8 +41,7 @@ const Statistics = () => {
   return (
     <div>
       <HeaderBanner header="Statistics"></HeaderBanner>
-
-      <div className="border-2 border-dashed  rounded-xl mt-6 border-indigo-500">
+      <div className="border-2 border-dashed  rounded-xl mt-6 border-indigo-500">      
         <PieChart className="mx-auto" width={400} height={400}>
           <Pie
             dataKey="marks"
@@ -85,6 +84,9 @@ const Statistics = () => {
             ]}
           />
         </PieChart>
+        <p className="font-medium text-gray-500 text-center mb-2">
+          NB: You can check the assignment marks by mouseover on the PieChart.
+        </p>
       </div>
     </div>
   );

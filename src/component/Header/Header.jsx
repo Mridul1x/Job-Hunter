@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
   return (
@@ -28,14 +29,14 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to={"/statistics"}>Statistics</Link>
+                <ActiveLink to={"/statistics"}>Statistics</ActiveLink>
               </li>
 
               <li tabIndex={0}>
-                <Link to={"/appliedjobs"}>Applied Jobs</Link>
+                <ActiveLink to={"/appliedjobs"}>Applied Jobs</ActiveLink>
               </li>
               <li>
-                <Link to={"/blogs"}>Blog</Link>
+                <ActiveLink to={"/blogs"}>Blog</ActiveLink>
               </li>
             </ul>
           </div>
@@ -46,16 +47,16 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
           <li>
-              <Link to={"/"}>Home</Link>
+              <ActiveLink to={"/"}>Home</ActiveLink>
             </li>
             <li>
-              <Link to={"/statistics"}>Statistics</Link>
+              <ActiveLink to={"/statistics"}>Statistics</ActiveLink>
             </li>
             <li tabIndex={0}>
-              <Link to={"/appliedjobs"}>Applied Jobs</Link>
+              <ActiveLink to={"/appliedjobs"}>Applied Jobs</ActiveLink>
             </li>
             <li>
-              <Link to={"/blogs"}>Blog</Link>
+              <ActiveLink to={"/blogs"}>Blog</ActiveLink>
             </li>
           </ul>
         </div>
