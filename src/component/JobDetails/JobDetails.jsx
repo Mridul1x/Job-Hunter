@@ -2,14 +2,16 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import image from "../../assets/All Images/Vector.png";
 import image1 from "../../assets/All Images/Vector-1.png";
+import { addToDb } from "../../fakedb";
 
 const JobDetails = () => {
-  const details = useLoaderData();
-  console.log(details);
   
-  const handleData = () =>{
-    
+  const details = useLoaderData();
+  
+  const handleData = (id) =>{
+    const addData = addToDb(id);
   }
+ 
 
   return (
     <div>
@@ -61,7 +63,7 @@ const JobDetails = () => {
             <span className="font-semibold">Addres: </span>{details.location}
           </p>
           </div>
-          <button className="btn btn-primary mt-3 font-bold text-white w-full">Apply Now</button>
+          <button onClick={()=>handleData(details.id)} className="btn btn-primary mt-3 font-bold text-white w-full">Apply Now</button>
         </div>
 
        
