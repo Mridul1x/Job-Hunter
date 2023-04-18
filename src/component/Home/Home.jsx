@@ -7,6 +7,7 @@ import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 const Home = () => {
   const jobs = useLoaderData();
   const [categories, setCategories] = useState([]);
+  const [showAllJobs, setShowAllJobs] = useState(false);
   useEffect(() => {
     fetch("category.json")
       .then((res) => res.json())
@@ -39,15 +40,13 @@ const Home = () => {
 
         <div className="flex justify-center items-center">
           <div className="grid md:grid-cols-2 gap-4">
-            {jobs.map((job) => (
+            {jobs.slice(0, showAllJobs ? jobs.length : 4).map((job) => (
               <FeaturedJobs key={job.id} job={job}></FeaturedJobs>
             ))}
           </div>
         </div>
         <div className="flex justify-center ">
-          <button
-            className="btn btn-primary my-10 text-xl font-bold text-white "
-          >
+          <button onClick={()=> setShowAllJobs(true)} className="btn btn-primary my-10 text-xl font-bold text-white ">
             See All Jobs
           </button>
         </div>
