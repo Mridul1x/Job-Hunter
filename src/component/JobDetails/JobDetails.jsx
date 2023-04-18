@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import image from "../../assets/All Images/Vector.png";
-import image1 from "../../assets/All Images/Vector-1.png";
+
 import { addToDb } from "../../fakedb";
+import HeaderBanner from "../HeaderBanner/HeaderBanner";
 
 const JobDetails = () => {
   
@@ -15,11 +15,7 @@ const JobDetails = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center">
-        <img src={image} alt="" />
-        <h1 className="text-3xl font-bold">Job Details</h1>
-        <img src={image1} alt="" />
-      </div>
+      <HeaderBanner header='Job Details'></HeaderBanner>
 
       <div className="mt-28 grid w-11/12 mx-auto md:grid-cols-3 gap-6 ">
         <div className="description col-span-2">

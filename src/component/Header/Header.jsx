@@ -30,6 +30,7 @@ const Header = () => {
               <li>
                 <Link to={"/statistics"}>Statistics</Link>
               </li>
+
               <li tabIndex={0}>
                 <Link to={"/appliedjobs"}>Applied Jobs</Link>
               </li>
@@ -44,6 +45,9 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
+          <li>
+              <Link to={"/"}>Home</Link>
+            </li>
             <li>
               <Link to={"/statistics"}>Statistics</Link>
             </li>

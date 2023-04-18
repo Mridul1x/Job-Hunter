@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import jobsData from "../../../public/jobs.json";
 import { getShoppingCart } from "../../fakedb";
 import AppliedJobsDetails from "../AppliedJobsDetails/AppliedJobsDetails";
+import HeaderBanner from "../HeaderBanner/HeaderBanner";
 
 const AppliedJobs = () => {
   const getData = getShoppingCart(); // retrieve saved data from local storage
@@ -17,9 +18,13 @@ const AppliedJobs = () => {
 
   return (
     <div>
-      {appliedJobs.map((job) => (
-        <AppliedJobsDetails key={job.id} job={job}></AppliedJobsDetails>
-      ))}
+      <HeaderBanner header="Applied Jobs"></HeaderBanner>
+      <div className="mt-52">
+        {
+           appliedJobs.map((job) => (
+          <AppliedJobsDetails key={job.id} job={job}></AppliedJobsDetails>))
+        }
+      </div>
     </div>
   );
 };
